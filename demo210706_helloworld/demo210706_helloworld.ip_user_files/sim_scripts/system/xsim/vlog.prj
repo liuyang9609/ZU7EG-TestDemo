@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "../../../../demo210706_helloworld.srcs/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../demo210706_helloworld.srcs/sources_1/bd/system/ipshared/00a3/hdl" --include "../../../../demo210706_helloworld.srcs/sources_1/bd/system/ip/system_zynq_ultra_ps_e_0_0/sim_tlm" --include "../../../../demo210706_helloworld.srcs/sources_1/bd/system/ip/system_zynq_ultra_ps_e_0_0" \
+"../../../bd/system/ip/system_zynq_ultra_ps_e_0_0/sim/system_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+"../../../bd/system/sim/system.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
